@@ -6,31 +6,14 @@
     <meta name="viewport" content="width=device-width">
     <!-- <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">do not remove this line! -->
     <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
     <title>UOC Boilerplate</title>
   </head>
   <body>
-    <div>
-      <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/src/assets/images/img.webp" alt="" width="384" height="512">
-        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-          <blockquote>
-            <p class="text-lg font-medium">
-              “Tailwind CSS is the only framework that I've seen scale
-              on large teams. It’s easy to customize, adapts to any design,
-              and the build size is tiny.”
-            </p>
-          </blockquote>
-          <figcaption class="font-medium">
-            <div class="text-sky-500 dark:text-sky-400">
-              Sarah Dayan
-            </div>
-            <div class="text-slate-700 dark:text-slate-500">
-              Staff Engineer, Algolia
-            </div>
-          </figcaption>
-        </div>
-      </figure>
-    </div>
+    <include src="./views/header.html"></include>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
