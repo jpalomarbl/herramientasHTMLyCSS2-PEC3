@@ -9,6 +9,7 @@ module.exports = {
        xl: '1.4rem',
       '2xl': '1.6rem',
       '3xl': '2rem',
+      '4xl': '3rem',
     },
     extend: {
       colors: {
