@@ -12,7 +12,7 @@
 
  @layer components {
   .responsive-width {
-    @apply mx-24 sm:mx-48 lg:mx-96 !important;
+    @apply mx-24 sm:mx-48 lg:mx-96;
   }
 
   .speaker-card-flex {
