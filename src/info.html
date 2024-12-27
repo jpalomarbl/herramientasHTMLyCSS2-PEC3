@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">do not remove this line! -->
+    <link href="./assets/styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/src/assets/images/shield-solid.svg">
+
+    <title>Cyber Secure</title>
+  </head>
+  <body>
+    <include src="./views/header.html"></include>
+
+    <article class="text-primary text-justify">
+      <section
+        class="flex flex-col items-center justify-center bg-info-background bg-cover bg-no-repeat h-80 md:h-96 mb-20"
+      >
+        <h1 class="text-light text-5xl font-light mb-20">Cyber Secure Days</h1>
+        <small class="text-light">by Jaime Simeón Palomar Blumenthal</small>
+      </section>
+
+      <section class="flex flex-col lg:flex-row gap-6 responsive-width mb-6">
+        <p class="text-xl mb-5">
+          The upcoming Cyber Secure Days, set to take place in London from March
+          12 to March 14.
+        </p>
+
+        <p class="begining__p2 col-12 col-xl-8">
+          The event promises to be one of the most significant gatherings for
+          professionals, enthusiasts, and thought leaders in the cybersecurity
+          field. This three-day event will bring together experts from around
+          the globe to discuss emerging trends, share groundbreaking research,
+          and foster collaboration in tackling the ever-evolving threats to
+          digital systems. With an agenda packed with keynote speeches, panel
+          discussions, and hands-on workshops.The conference program will also
+          include three specialized tracks:
+        </p>
+      </section>
+
+      <ol
+        class="list-decimal marker:text-dark marker:text-xl responsive-width border-t-2 border-b-2 border-solid border-light py-10 px-6"
+      >
+        <li class="mb-6">
+          <h6 class="font-bold">Critical Infrastructure Security</h6>
+          <p class="list-info__text">
+            This track will focus on safeguarding essential systems like power
+            grids, transportation, and healthcare facilities. It will cover the
+            latest advancements in SCADA system protection and cyber-physical
+            resilience.
+          </p>
+        </li>
+        <li class="mb-6">
+          <h6 class="font-bold">Human-Centered Cybersecurity</h6>
+          <p class="">
+            Emphasizing the human element, this track will delve into social
+            engineering tactics, the psychology of phishing, and the importance
+            of fostering a security-first mindset among employees.
+          </p>
+        </li>
+        <li class="">
+          <h6 class="font-bold">Next-Generation Threat Detection</h6>
+          <p class="">
+            Attendees will explore the role of machine learning and predictive
+            analytics in identifying and neutralizing threats before they
+            materialize.
+          </p>
+        </li>
+      </ol>
+
+      <include src="./views/big-paragraph.html">
+        { "content": "For those seeking a more interactive experience, the event
+        will host a series of workshops, including a live penetration testing
+        session where participants can learn ethical hacking techniques." }
+      </include>
+
+      <p class="responsive-width mb-10">
+        Another standout session will be "Build Your First Threat Model,"
+        designed for beginners who want to understand how to identify and
+        mitigate vulnerabilities in real-world scenarios. These workshops are
+        tailored to cater to all skill levels, ensuring everyone walks away with
+        actionable knowledge.
+      </p>
+
+      <img
+        class="w-3/4 md:w-2/3 lg:w-1/2 mx-auto mb-10"
+        src="/src/assets/images/info-img.jpg"
+        alt="Woman with a laptop in a server room"
+      />
+
+      <p class="responsive-width">
+        Cyber Secure Days is shaping up to be an unmissable event for anyone
+        passionate about safeguarding the digital future. With its combination
+        of cutting-edge content, interactive sessions, and networking
+        opportunities, it offers a holistic experience that transcends a typical
+        conference. Registrations are open now, with early bird discounts
+        available until February 1, 2024. Secure your spot today and be part of
+        shaping the future of cybersecurity!
+      </p>
+    </article>
+
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+  </body>
+</html>

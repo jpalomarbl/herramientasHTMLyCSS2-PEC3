@@ -5,11 +5,21 @@
  * Do not include SCSS code in this file.
  */
 
+
 /**
- * Import variables
+ * Extracted styles
  */
 
-@import "variables";
+ @layer components {
+  .responsive-width {
+    @apply mx-24 sm:mx-48 lg:mx-96 !important;
+  }
+
+  .speaker-card-flex {
+    @apply flex-grow-0 flex-shrink-0 basis-auto sm:basis-3/4 md:basis-2/3 xl:basis-1/3;
+  }
+}
+
 
 /**
  * Import npm dependencies
@@ -18,13 +28,6 @@
  */
  @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
-
-/**
- * Import layouts
- * It's a best practice to use a different partial for each page
- */
-
-@import "layouts/home";
 
 /**
  * Do NOT include anything else in this file!

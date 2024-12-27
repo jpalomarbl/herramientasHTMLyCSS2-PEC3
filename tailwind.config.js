@@ -10,6 +10,7 @@ module.exports = {
       '2xl': '1.6rem',
       '3xl': '2rem',
       '4xl': '3rem',
+      '5xl': '4.5rem'
     },
     extend: {
       colors: {
@@ -22,6 +23,9 @@ module.exports = {
       fontFamily: {
         roboto: ['"Roboto"', "serif"],
         doto: ['"Doto"', "serif"]
+      },
+      backgroundImage: {
+        'info-background': "url('/src/assets/images/info-bg-title.jpg')"
       }
     },
   },
