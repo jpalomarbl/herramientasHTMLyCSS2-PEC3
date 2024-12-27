@@ -54,38 +54,33 @@
       <ol
         class="list-decimal marker:text-dark marker:text-xl responsive-width border-t-2 border-b-2 border-solid border-light py-10 px-6"
       >
-        <li class="mb-6">
-          <h6 class="font-bold">Critical Infrastructure Security</h6>
-          <p class="list-info__text">
-            This track will focus on safeguarding essential systems like power
-            grids, transportation, and healthcare facilities. It will cover the
-            latest advancements in SCADA system protection and cyber-physical
-            resilience.
-          </p>
-        </li>
-        <li class="mb-6">
-          <h6 class="font-bold">Human-Centered Cybersecurity</h6>
-          <p>
-            Emphasizing the human element, this track will delve into social
-            engineering tactics, the psychology of phishing, and the importance
-            of fostering a security-first mindset among employees.
-          </p>
-        </li>
-        <li>
-          <h6 class="font-bold">Next-Generation Threat Detection</h6>
-          <p>
-            Attendees will explore the role of machine learning and predictive
-            analytics in identifying and neutralizing threats before they
-            materialize.
-          </p>
-        </li>
+        <include src="./views/ol-list-element.html">
+          { "title": "Critical Infrastructure Security", "content": "This track
+          will focus on safeguarding essential systems like power grids,
+          transportation, and healthcare facilities. It will cover the latest
+          advancements in SCADA system protection and cyber-physical
+          resilience." }
+        </include>
+
+        <include src="./views/ol-list-element.html">
+          { "title": "Human-Centered Cybersecurity", "content": "Emphasizing the
+          human element, this track will delve into social engineering tactics,
+          the psychology of phishing, and the importance of fostering a
+          security-first mindset among employees." }
+        </include>
+
+        <include src="./views/ol-list-element.html">
+          { "title": "Next-Generation Threat Detection", "content": "Attendees
+          will explore the role of machine learning and predictive analytics in
+          identifying and neutralizing threats before they materialize." }
+        </include>
       </ol>
 
-      <include src="./views/big-paragraph.html">
-        { "content": "For those seeking a more interactive experience, the event
+      <p class="text-xl responsive-width mt-6 mb-3 text-justify">
+        For those seeking a more interactive experience, the event
         will host a series of workshops, including a live penetration testing
-        session where participants can learn ethical hacking techniques." }
-      </include>
+        session where participants can learn ethical hacking techniques.
+      </p>
 
       <p class="responsive-width mb-10">
         Another standout session will be "Build Your First Threat Model,"
